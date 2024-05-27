@@ -5,155 +5,154 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="900.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.schultetable.TableController">
+<VBox prefHeight="900.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schultetable.TableController">
     <children>
         <TilePane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
             <padding>
                 <Insets bottom="10" left="261" right="200" top="250" />
             </padding>
             <children>
-                <Button fx:id="b1" onAction="#b1Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b1" mnemonicParsing="false" onAction="#b1Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b2" onAction="#b2Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b2" mnemonicParsing="false" onAction="#b2Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b3" onAction="#b3Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b3" mnemonicParsing="false" onAction="#b3Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b4" onAction="#b4Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80"  style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b4" mnemonicParsing="false" onAction="#b4Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b5" onAction="#b5Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b5" mnemonicParsing="false" onAction="#b5Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b6" onAction="#b6Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b6" mnemonicParsing="false" onAction="#b6Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b7" onAction="#b7Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b7" mnemonicParsing="false" onAction="#b7Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b8" onAction="#b8Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b8" mnemonicParsing="false" onAction="#b8Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b9" onAction="#b9Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b9" mnemonicParsing="false" onAction="#b9Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b10" onAction="#b10Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b10" mnemonicParsing="false" onAction="#b10Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b11" onAction="#b11Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b11" mnemonicParsing="false" onAction="#b11Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b12" onAction="#b12Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b12" mnemonicParsing="false" onAction="#b12Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b13" onAction="#b13Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b13" mnemonicParsing="false" onAction="#b13Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b14" onAction="#b14Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b14" mnemonicParsing="false" onAction="#b14Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b15" onAction="#b15Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b15" mnemonicParsing="false" onAction="#b15Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b16" onAction="#b16Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b16" mnemonicParsing="false" onAction="#b16Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b17" onAction="#b17Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b17" mnemonicParsing="false" onAction="#b17Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b18" onAction="#b18Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b18" mnemonicParsing="false" onAction="#b18Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b19" onAction="#b19Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b19" mnemonicParsing="false" onAction="#b19Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b20" onAction="#b20Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b20" mnemonicParsing="false" onAction="#b20Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b21" onAction="#b21Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b21" mnemonicParsing="false" onAction="#b21Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b22" onAction="#b22Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b22" mnemonicParsing="false" onAction="#b22Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b23" onAction="#b23Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b23" mnemonicParsing="false" onAction="#b23Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b24" onAction="#b24Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b24" mnemonicParsing="false" onAction="#b24Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b25" onAction="#b25Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b25" mnemonicParsing="false" onAction="#b25Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b26" onAction="#b26Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b26" mnemonicParsing="false" onAction="#b26Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b27" onAction="#b27Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b27" mnemonicParsing="false" onAction="#b27Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b28" onAction="#b28Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b28" mnemonicParsing="false" onAction="#b28Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b29" onAction="#b29Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b29" mnemonicParsing="false" onAction="#b29Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b30" onAction="#b30Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b30" mnemonicParsing="false" onAction="#b30Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b31" onAction="#b31Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b31" mnemonicParsing="false" onAction="#b31Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b32" onAction="#b32Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b32" mnemonicParsing="false" onAction="#b32Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b33" onAction="#b33Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b33" mnemonicParsing="false" onAction="#b33Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b34" onAction="#b34Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b34" mnemonicParsing="false" onAction="#b34Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b35" onAction="#b35Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b35" mnemonicParsing="false" onAction="#b35Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
-                <Button fx:id="b36" onAction="#b36Clicked" mnemonicParsing="false" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
+                <Button fx:id="b36" mnemonicParsing="false" onAction="#b36Clicked" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;">
                     <font>
                         <Font size="15.0" />
                     </font></Button>
@@ -161,14 +160,14 @@
         </TilePane>
         <HBox alignment="CENTER" prefHeight="80.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;">
             <children>
-                <Button fx:id="start" mnemonicParsing="false" onAction="#onStart6x6" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;" text="Start">
+                <Button fx:id="start" mnemonicParsing="false" onAction="#onStart6x6" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-background-radius: 40;" text="Start">
                     <font>
-                        <Font size="15.0" />
+                        <Font name="DejaVu Serif Condensed Bold" size="17.0" />
                     </font>
                 </Button>
-                <Button fx:id="end" mnemonicParsing="false" onAction="#onEnd" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;" text="End">
+                <Button fx:id="end" mnemonicParsing="false" onAction="#onEnd" prefHeight="80" prefWidth="80" style="-fx-background-color: #CFB53B; -fx-border-radius: 40; -fx-background-radius: 40;" text="End">
                     <font>
-                        <Font size="15.0" />
+                        <Font name="DejaVu Serif Condensed Bold" size="17.0" />
                     </font>
                 </Button>
                 <VBox alignment="CENTER_RIGHT" prefHeight="80.0" prefWidth="300.0" spacing="20.0">
@@ -186,6 +185,11 @@
                             </font></Label>
                     </children>
                 </VBox>
+                <Button fx:id="menu" mnemonicParsing="false" onAction="#onMenu" prefHeight="80" prefWidth="80" style="-fx-background-color: #EEE8AA; -fx-background-radius: 40;" text="Menu">
+                    <font>
+                        <Font name="DejaVu Serif Condensed Bold" size="17.0" />
+                    </font>
+                </Button>
             </children>
         </HBox>
     </children>
