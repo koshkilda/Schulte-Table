@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="900.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.schultetable.TableController">
+<VBox prefHeight="900.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schultetable.TableController">
    <children>
       <TilePane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;">
          <padding>
@@ -81,14 +80,14 @@
       </TilePane>
       <HBox alignment="CENTER" prefHeight="80.0" prefWidth="1000.0" style="-fx-background-color: #A7DBD7;">
          <children>
-            <Button fx:id="start" mnemonicParsing="false" onAction="#onStart4x4" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;" text="Start">
+            <Button fx:id="start" mnemonicParsing="false" onAction="#onStart4x4" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-background-radius: 40;" text="Start">
                <font>
-                  <Font size="15.0" />
+                  <Font name="DejaVu Serif Condensed Bold" size="17.0" />
                </font>
             </Button>
-            <Button fx:id="end" mnemonicParsing="false" onAction="#onEnd" prefHeight="80" prefWidth="80" style="-fx-background-color: #F48631; -fx-border-color: #9B2F1F;" text="End">
+            <Button fx:id="end" mnemonicParsing="false" onAction="#onEnd" prefHeight="80" prefWidth="80" style="-fx-background-color: #CFB53B; -fx-border-radius: 40; -fx-background-radius: 40;" text="End">
                <font>
-                  <Font size="15.0" />
+                  <Font name="DejaVu Serif Condensed Bold" size="17.0" />
                </font>
             </Button>
             <VBox alignment="CENTER_RIGHT" prefHeight="80.0" prefWidth="300.0" spacing="20.0">
@@ -106,6 +105,11 @@
                      </font></Label>
                </children>
             </VBox>
+            <Button fx:id="menu" mnemonicParsing="false" onAction="#onMenu" prefHeight="80" prefWidth="80" style="-fx-background-color: #EEE8AA; -fx-background-radius: 40;" text="Menu">
+               <font>
+                  <Font name="DejaVu Serif Condensed Bold" size="17.0" />
+               </font>
+            </Button>
          </children>
       </HBox>
    </children>
